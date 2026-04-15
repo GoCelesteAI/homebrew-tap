@@ -1,22 +1,22 @@
 class Cargoterm < Formula
   desc "AI-augmented terminal — a local LLM translates natural language into shell commands"
   homepage "https://github.com/GoCelesteAI/cargoterm"
-  version "0.6.1"
+  version "0.6.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/GoCelesteAI/cargoterm/releases/download/v0.6.1/cargoterm-0.6.1-aarch64-apple-darwin.tar.gz"
-      sha256 "0b2b6cc43753b527d95f6984453a56a1c76254a72f5d7c7bb3347f189f1c10e0"
+      url "https://github.com/GoCelesteAI/cargoterm/releases/download/v0.6.2/cargoterm-0.6.2-aarch64-apple-darwin.tar.gz"
+      sha256 "a67efb23c2feecf0e28d90b8e0818990c858a4be523349279bf14cd5a91dd568"
     else
-      url "https://github.com/GoCelesteAI/cargoterm/releases/download/v0.6.1/cargoterm-0.6.1-x86_64-apple-darwin.tar.gz"
-      sha256 "623768241aac4218e0ce868fddff32cf5bead06a50a9670d7fc3dd53d69ca8ea"
+      url "https://github.com/GoCelesteAI/cargoterm/releases/download/v0.6.2/cargoterm-0.6.2-x86_64-apple-darwin.tar.gz"
+      sha256 "933128a0d6a1fbb39b84f8abc0e233ec4dc3d52b945118a398fe672193bde09b"
     end
   end
 
   on_linux do
-    url "https://github.com/GoCelesteAI/cargoterm/releases/download/v0.6.1/cargoterm-0.6.1-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "b643c4d60029678149a2a803bfebd633d355b7b7fedd20f7334ae9a14b94bb8a"
+    url "https://github.com/GoCelesteAI/cargoterm/releases/download/v0.6.2/cargoterm-0.6.2-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "e6d4bcbedc856975a599763bc43a1337d433010192ca39bfc117770505404e8c"
   end
 
   def install
